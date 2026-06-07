@@ -8,6 +8,10 @@ synthwave:
   secondary-text-color: '#ffffffca'
   text-primary-color: '#f4eee4'
   disabled-text-color: '#bdbdbd'
+  disabled-color: '#848bbd'
+  rgb-disabled-color: '132, 139, 189'
+  mush-rgb-disabled: '132, 139, 189'
+  grey-color: '#848bbd'
   text-light-primary-color: '#fff'
 
   # main interface colors
@@ -24,32 +28,32 @@ synthwave:
   # iron-icon-fill-color: '#fff'
   yellow: '#ffcc00'
   green: '#72f1b8cc'
-  
+
   ###
-  
+
   # background and sidebar
   card-background-color: '#34294f'
   app-header-background-color: 'var(--primary-background-color)'
   paper-card-background-color: 'var(--card-background-color)'
   secondary-background-color: 'var(--light-primary-color)' # behind the cards on state
   ha-card-border-radius: '8px'
-  
+
   # sidebar menu
   sidebar-text-color: 'var(--secondary-text-color)'
   # sidebar-background-color: 'var(--paper-listbox-background-color)' # backward compatible with existing themes
   sidebar-icon-color: 'var(--secondary-text-color)'
   sidebar-selected-text-color: 'var(--primary-text-color)'
   sidebar-selected-icon-color: 'var(--primary-text-color)'
-  
+
   # mwc - for some reason it's buttons
   mdc-theme-primary: 'var(--dark-primary-color)'
   mdc-theme-secondary: 'var(--dark-primary-color)'
-  
+
   # shadows
   ha-card-box-shadow: '0'
 
   # icons
-  paper-item-icon-color: 'var(--secondary-text-color)'  # Off
+  paper-item-icon-color: 'var(--secondary-text-color)' # Off
   paper-item-icon-active-color: 'var(--yellow)' # On
 
   # switches
@@ -81,6 +85,9 @@ synthwave:
 
   # other
   state-icon-color: 'var(--green)'
+  state-inactive-color: '#848bbd'
+  rgb-state-inactive-color: '132, 139, 189'
+  state-climate-off-color: 'var(--state-inactive-color)'
   table-row-background-color: 'var(--divider-color)'
   table-row-alternative-background-color: 'var(--light-primary-color)'
   
@@ -106,7 +113,7 @@ synthwave:
   mdc-text-field-disabled-fill-color: 'var(--primary-background-color)'
   mdc-text-field-disabled-ink-color: 'var(--disabled-text-color)'
   mdc-text-field-disabled-dropdown-icon-color: 'var(--disabled-text-color)'
-  
+
   # Template Editor
   codemirror-keyword: '#36f9f6'
   codemirror-operator: '#36f9f6'
@@ -177,10 +184,10 @@ synthwave:
   ha-color-neutral-90: '#e4e3e7'
   ha-color-neutral-95: '#f1f1f3'
 
-  # override default values to make form fields readable
-  ha-color-form-background: 'var(--ha-color-primary-20)'
-  ha-color-form-background-disabled: 'var(--ha-color-primary-80)'
-  ha-color-form-background-hover: 'var(--ha-color-primary-50)'
+  # form fields / picker search
+  ha-color-form-background: '#3b3058'
+  ha-color-form-background-disabled: '#302742'
+  ha-color-form-background-hover: '#443668'
 
   # semantic color tokens from the default dark theme (Home Assistant 2026.1)
   ha-color-text-primary: var(--white-color)
@@ -208,13 +215,14 @@ synthwave:
   ha-color-fill-primary-normal-active: var(--ha-color-primary-10)
 
   ha-color-fill-neutral-quiet-resting: var(--ha-color-neutral-05)
-  ha-color-fill-neutral-quiet-f-fill-neutral-quiet-active: var(--ha-color-neutral-00)
+  ha-color-fill-neutral-quiet-active: var(--ha-color-neutral-05)
 
   ha-color-fill-neutral-normal-resting: var(--ha-color-neutral-10)
   ha-color-fill-neutral-normal-hover: var(--ha-color-neutral-20)
   ha-color-fill-neutral-normal-active: var(--ha-color-neutral-10)
 
   ha-color-fill-disabled-quiet-resting: var(--ha-color-neutral-10)
+  ha-color-fill-disabled-quiet-active: var(--ha-color-neutral-10)
 
   ha-color-fill-disabled-normal-resting: var(--ha-color-neutral-20)
 
