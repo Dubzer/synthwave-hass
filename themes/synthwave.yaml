@@ -65,6 +65,8 @@ synthwave:
   switch-checked-color: 'var(--dark-primary-color)' # Background On
   paper-toggle-button-unchecked-button-color: 'var(--primary-text-color)' # Knob Off
   paper-toggle-button-unchecked-bar-color: 'var(--disabled-text-color)' # Background Off
+  ha-switch-thumb-background-color: 'var(--disabled-color)'
+  ha-switch-thumb-border-color: 'var(--disabled-color)'
 
   # Sliders
   slider-color: 'var(--primary-color)'
