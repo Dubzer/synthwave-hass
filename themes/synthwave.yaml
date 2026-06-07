@@ -1,4 +1,8 @@
 synthwave:
+  modes:
+    dark:
+      primary-background-color: '#2a2139'
+
   # text
   primary-text-color: '#fff'
   secondary-text-color: '#ffffffca'
