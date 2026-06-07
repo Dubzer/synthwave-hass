@@ -220,7 +220,7 @@ synthwave:
 
   ha-color-fill-neutral-normal-resting: var(--ha-color-neutral-10)
   ha-color-fill-neutral-normal-hover: var(--ha-color-neutral-20)
-  ha-color-fill-neutral-normal-active: var(--ha-color-neutral-10)
+  ha-color-fill-neutral-normal-active: var(--ha-color-form-background-hover)
   wa-color-neutral-fill-normal: var(--ha-color-form-background-hover)
 
   ha-color-fill-disabled-quiet-resting: var(--ha-color-neutral-10)
